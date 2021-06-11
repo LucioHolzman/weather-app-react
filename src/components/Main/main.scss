@@ -1,0 +1,14 @@
+.container-main {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: #333;
+    .container {
+        width: 30%;
+        .title{
+            display: flex;
+            justify-content: flex-start;
+            margin:20px 0px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.container-input {
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.error-msg {
+    position: absolute;
+    color: rgb(230, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
+.active-input {
+    position: absolute;
+    z-index: 0;
+    transition: all .5s ease;
+    transform: translateY(-20px);
+    padding: 5px 0px;
+    font-size: 13px;
+}
+
+.off-input {
+    position: absolute;
+    z-index: 0;
+    padding: 5px;
+    transition: all .5s ease;
+}
+
+.input {
+    position: relative;
+    outline: none;
+    padding: 5px 0px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+
+
